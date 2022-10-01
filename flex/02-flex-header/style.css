@@ -2,7 +2,7 @@
   font-family: monospace;
   background: papayawhip;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -12,6 +12,7 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+  margin: 8px;
   
 }
 
@@ -19,7 +20,8 @@ ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
   display: flex;
-  flex-direction: row;
+  align-items: center;
+  
 }
 
 a {
