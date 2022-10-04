@@ -23,7 +23,6 @@ body {
   align-items: center;
   justify-content: flex-start;
   margin: 8px;
-
 }
 
 .right {
@@ -31,7 +30,7 @@ body {
   flex-grow: 1;
   justify-content: flex-end;
   align-items: center;
-  margin: 16px;
+  margin: 8px;
 }
 
 .profile-image {
@@ -40,17 +39,13 @@ body {
   border-radius: 50%;
   width: 48px;
   height: 48px;
-  /*margin-right: 8px;
-  margin-left: 16px;*/
-  
 }
 
 .links {
   display: flex;
   justify-content: flex-start;
   align-items: space-between;
-  padding: 0px;
-  
+  padding: 0px; 
 }
 
 .logo {
@@ -58,8 +53,7 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
-  margin: 8px;
-  
+  margin: 8px; 
 }
 
 button {
@@ -77,15 +71,9 @@ a {
   color: rebeccapurple;
   display: flex;
   margin: 16px;
-  
 }
 
 ul {
   list-style-type: none;
   align-items: flex-start;
-  
-  
- 
-  
-  
 }
