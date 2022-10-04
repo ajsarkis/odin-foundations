@@ -6,6 +6,7 @@ body {
   margin: 0;
   background: #eee;
   font-family: Besley, serif;
+  margin: 16px;
 }
 
 .header {
@@ -13,18 +14,24 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  margin: 16px;
 }
 
 .left {
   display: flex;
-  justify-content: flex-start;
+  flex-grow: 2;
   align-items: center;
+  justify-content: flex-start;
+  margin: 8px;
+
 }
 
 .right {
   display: flex;
+  flex-grow: 1;
   justify-content: flex-end;
   align-items: center;
+  margin: 16px;
 }
 
 .profile-image {
@@ -33,6 +40,17 @@ body {
   border-radius: 50%;
   width: 48px;
   height: 48px;
+  /*margin-right: 8px;
+  margin-left: 16px;*/
+  
+}
+
+.links {
+  display: flex;
+  justify-content: flex-start;
+  align-items: space-between;
+  padding: 0px;
+  
 }
 
 .logo {
@@ -40,6 +58,8 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  margin: 8px;
+  
 }
 
 button {
@@ -48,14 +68,24 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
+  margin: 16px;
 }
 
 a {
   /* this removes the line under our links */
   text-decoration: none;
   color: rebeccapurple;
+  display: flex;
+  margin: 16px;
+  
 }
 
 ul {
   list-style-type: none;
+  align-items: flex-start;
+  
+  
+ 
+  
+  
 }
