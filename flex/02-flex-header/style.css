@@ -6,7 +6,6 @@
 }
 
 .left-links {
-background-color: orange;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -17,7 +16,6 @@ align-items: center;
   font-weight: 900;
   color: tomato;
   background: white;
-  background-color: aqua;
   padding: 4px 32px;
   justify-content: center;
   align-items: center;
@@ -25,7 +23,6 @@ align-items: center;
 }
 
 .right-links {
-background-color: blue;
 display: flex;
 justify-content: center;
 align-items: center;
