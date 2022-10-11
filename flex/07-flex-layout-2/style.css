@@ -39,6 +39,11 @@ body {
   flex-shrink: 0;
 }
 
+a {
+  color:white;
+  text-decoration: none;
+}
+
 ul {
   display: flex;
   flex-direction: column;
@@ -46,7 +51,6 @@ ul {
   margin: 20px;
   padding: 0;
   gap: 16px
-
 }
 
 li {
@@ -60,6 +64,8 @@ li {
   display: flex;
   flex-wrap: wrap;
   text-decoration: none;
+  padding: 35px;
+  gap: 25px;
 }
 
 .card {
@@ -70,6 +76,5 @@ li {
   height: 300px;
   display: flex;
   flex-wrap: wrap;
-
- 
+  padding: 15px;
 }
