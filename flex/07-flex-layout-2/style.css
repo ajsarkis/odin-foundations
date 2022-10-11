@@ -64,7 +64,6 @@ li {
 .cardholder {
   display: flex;
   flex-wrap: wrap;
-  text-decoration: none;
   padding: 32px;
   gap: 25px;
 }
@@ -77,5 +76,5 @@ li {
   height: 300px;
   display: flex;
   flex-wrap: wrap;
-  padding: 15px;
+  padding: 16px;
 }
